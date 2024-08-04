@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit HCMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Visit HCMC</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Trang Chủ</a></li>
+                    <li><a href="#explore">Khám Phá</a></li>
+                    <li><a href="#events">Lễ Hội & Sự Kiện</a></li>
+                    <li><a href="#info">Thông Tin Cần Biết</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero-section">
+            <video autoplay muted loop class="background-video">
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+            <div class="hero-content">
+                <h2>Welcome to Ho Chi Minh City</h2>
+                <p>Discover vibrant experiences...</p>
+                <button>Explore Now</button>
+            </div>
+        </section>
+        <section id="explore">
+            <h2>Khám Phá</h2>
+            <div id="map"></div>
+        </section>
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <div class="carousel">
+                <div class="testimonial">
+                    <p>"An unforgettable experience in HCMC!"</p>
+                    <p>- Visitor A</p>
+                </div>
+                <div class="testimonial">
+                    <p>"Loved the food and culture!"</p>
+                    <p>- Visitor B</p>
+                </div>
+            </div>
+        </section>
+        <section id="info">
+            <h2>Thông Tin Cần Biết</h2>
+            <p>Important information for travelers including visa details, safety tips, and more...</p>
+        </section>
+        <section id="newsletter">
+            <h2>Stay Updated</h2>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 HCMC Tourism Promotion Center. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
