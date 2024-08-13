@@ -17,7 +17,22 @@ window.onscroll = () => {
     });
 };
 
-window.addEventListener('scroll', function(){
-    var header = document.querySelector('header');
-    header.classList.toggle('sticky', window.scroll > 0);
-});
+window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+})
+
+window.onscroll = function() {
+    makeSticky();
+  };
+
+  var header = document.getElementById("header");
+  var sticky = header.offsetTop;
+
+  function makeSticky() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
