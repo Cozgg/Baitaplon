@@ -1,4 +1,3 @@
-/* Basic Reset */
 @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playball&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
@@ -120,7 +119,6 @@ header.sticky .tag,
 header.sticky ul li a{
     color: #000;
 }
-
 .content h1{
     margin-top: 50px;
 }
@@ -136,7 +134,9 @@ header.sticky ul li a{
 div .main{
     border: solid 1px;
 }
-
+a{
+    text-decoration: none;
+}
 .left{
     float:left;
     width: 20%;
@@ -156,127 +156,85 @@ div .main{
     text-decoration: underline;
     height: 10px
 }
-a{
-    text-decoration: none;
-}
-.right{
-    border: 3px solid gray;
-    border-radius: 10px;
-    float: right;
-    margin: 20px;
-    font-weight: 40px;
-    height: 2600px;
-    width: 20%;
-    text-align: center;
-    margin-right: 0px;
-}
-.right p:hover a{
-    text-decoration: underline;
-    height: 10px
-}
-.right p{
-    font-weight: 10;
-    font-size: 14px;
-    margin: 3px 0px;
-}
-.right img{
-    width: 80px;
-}
-.right img:nth-child(5){
-    width: 250px;
-    height: 190px
-}
-.right img:nth-child(1) {
-    width: 30px;
-    vertical-align: middle;
-}
-.right .a{
-    width: 250px;
-}
-.right .banner{
-    background-color: #333;
-    color: white;
-    margin: 20px;
-    height: 60px;
-    line-height: 60px;
-    border-radius: 10px;
-}
-.right .banner1{
-    background-color: #333;
-    color: white;
-    margin: 20px;
-    height: 60px;
-    line-height: 60px;
-    font-size: 13px;
-    border-radius: 10px;
-}
-.right a{
-    font-weight: 10;
-}
-.right .phai{
-    float: right;
-    width: 48%;
-    text-align: left;
-    height: 1px;
-}
-.right hr{
-    margin: 10px;
-    height: 2px gray;
-}
-.right .trai{
-    float: left;
-    width: 95px;
-    margin-left: 10px;
-    text-align: left;
-    height: 1px;
-}
 .content{
     align-items:flex-start;
     display: flow-root;
 }
-
 .content p{
-    font-weight: 30;
-    font-size: 20px;
-    margin: 50px 0px;
+    margin: 40px;
+    font-size: 25px;
+    font-weight: lighter;
+    align-items: center;
+    width: 90%
 }
-.content h3{
-    margin-top:20px;
+.content h1{
+    color: rgb(3, 84, 3);
+    font-family: "Platypi", serif;
+    text-align: center;
+    margin: 50px;
+    padding-right: 80px;
+    font-size: 45px;
 }
-.content .top{
-    vertical-align: top;
-    float:left;
+.content .double{
     width: 40%;
-    border: 1px solid white;
+    height: 320px;
+    border: 1px solid;
     border-radius: 10px;
-    margin: 10px;
+    align-items: center;
+    margin-left: 55px;
+    border-style: hidden;
+}
+.content h2{
+    color: rgb(3, 61, 3);
+    font-family: "Platypi", serif;
+    margin: 50px;
+}
+.content .full{
+    width: 100%;
+    border: 1px solid;
+    border-radius: 10px;
+    align-items: center;
+    border-style: hidden;
+}
+
+.content li{
+    margin-left: 90px;
+}
+.content .triple{
+    width: 30%;
+    height: 250px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-style: hidden;
+    margin-left: 25px;
+    margin-top: 20px;
 }
 .content .topRight{
-    vertical-align: top;
-    float:right;
     width: 30%;
-    border: 1px solid white;
-    border-radius: 10px;
-    margin: 10px;
-}
-.content table,th,td{
-    margin: 10px;
+    vertical-align: middle;
+    float: right;
     border: 1px solid;
-    border-collapse: collapse;
+    border-style: hidden;
+    border-radius: 10px;
+    margin-right: 90px;
+    padding-left: 20px;
 }
-th{
-    background-color: rgb(208, 208, 208);
-    padding: 20px;
+.content .topLeft{
+    width: 30%;
+    vertical-align: middle;
+    float: left;
+    border: 1px solid;
+    border-style: hidden;
+    border-radius: 10px;
+    margin: 10px 30px;
 }
-td{
-    background-color: rgb(230, 230, 230);
-    padding: 10px;
+.content .thin{
     font-weight: lighter;
-}
-.content .back{
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
     margin-left: 50px;
 }
-
 footer {
     width: 100%;
     background-color: #333;

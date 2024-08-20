@@ -1,4 +1,3 @@
-/* Basic Reset */
 @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playball&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
@@ -28,11 +27,11 @@ header{
     z-index: 1000000;
     animation: zoom 30s infinite;
     border-radius: 0 0 20px 20px;
-    
 }
 header.sticky{
     padding: 0px 70px;
     background: rgb(194, 196, 204);
+    
 }
 header .logo{
     position: relative;
@@ -114,169 +113,28 @@ section h1{
     color: rgb(255, 255, 255);
     font-family:'Allison';
     font-size: 3em;
- 
 }
 header.sticky .tag,
 header.sticky ul li a{
     color: #000;
 }
 
-.content h1{
-    margin-top: 50px;
-}
-
-.left hr {
-    height: 0.2px;
-    background-color: rgb(6, 6, 6);
-}
-.content hr{
-    height: 4px;
-    background-color: rgb(6, 6, 6);
-}
-div .main{
-    border: solid 1px;
-}
-
-.left{
-    float:left;
-    width: 20%;
-    margin:25px 40px;
-    position: sticky;
-    top: 150px;
-    height: 100dvh;
-    min-width: 250px;
-}   
-.left div{
-    text-decoration: none;
-    color: rgba(8, 49, 181, 0.832);
-    margin: 30px 0px;
-    font-weight: 10;
-}
-.left div:hover a{
-    text-decoration: underline;
-    height: 10px
-}
-a{
-    text-decoration: none;
-}
-.right{
-    border: 3px solid gray;
-    border-radius: 10px;
-    float: right;
-    margin: 20px;
-    font-weight: 40px;
-    height: 2600px;
-    width: 20%;
+div .title{
     text-align: center;
-    margin-right: 0px;
+    margin: auto;
+    padding: 100px 0px;
+    font-size: 4em;
+    color: rgb(3,84,3);
+    
 }
-.right p:hover a{
-    text-decoration: underline;
-    height: 10px
+div .map{
+    width: 99%;
+    height: 100vh;
+    position: sticky;
+    top: 30px;
+    border: 3px solid ;
+    border-radius: 30px;
 }
-.right p{
-    font-weight: 10;
-    font-size: 14px;
-    margin: 3px 0px;
-}
-.right img{
-    width: 80px;
-}
-.right img:nth-child(5){
-    width: 250px;
-    height: 190px
-}
-.right img:nth-child(1) {
-    width: 30px;
-    vertical-align: middle;
-}
-.right .a{
-    width: 250px;
-}
-.right .banner{
-    background-color: #333;
-    color: white;
-    margin: 20px;
-    height: 60px;
-    line-height: 60px;
-    border-radius: 10px;
-}
-.right .banner1{
-    background-color: #333;
-    color: white;
-    margin: 20px;
-    height: 60px;
-    line-height: 60px;
-    font-size: 13px;
-    border-radius: 10px;
-}
-.right a{
-    font-weight: 10;
-}
-.right .phai{
-    float: right;
-    width: 48%;
-    text-align: left;
-    height: 1px;
-}
-.right hr{
-    margin: 10px;
-    height: 2px gray;
-}
-.right .trai{
-    float: left;
-    width: 95px;
-    margin-left: 10px;
-    text-align: left;
-    height: 1px;
-}
-.content{
-    align-items:flex-start;
-    display: flow-root;
-}
-
-.content p{
-    font-weight: 30;
-    font-size: 20px;
-    margin: 50px 0px;
-}
-.content h3{
-    margin-top:20px;
-}
-.content .top{
-    vertical-align: top;
-    float:left;
-    width: 40%;
-    border: 1px solid white;
-    border-radius: 10px;
-    margin: 10px;
-}
-.content .topRight{
-    vertical-align: top;
-    float:right;
-    width: 30%;
-    border: 1px solid white;
-    border-radius: 10px;
-    margin: 10px;
-}
-.content table,th,td{
-    margin: 10px;
-    border: 1px solid;
-    border-collapse: collapse;
-}
-th{
-    background-color: rgb(208, 208, 208);
-    padding: 20px;
-}
-td{
-    background-color: rgb(230, 230, 230);
-    padding: 10px;
-    font-weight: lighter;
-}
-.content .back{
-    margin-left: 50px;
-}
-
 footer {
     width: 100%;
     background-color: #333;
