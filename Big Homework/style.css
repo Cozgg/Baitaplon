@@ -120,23 +120,9 @@ header.sticky .tag,
 header.sticky ul li a{
     color: #000;
 }
-
-.content h1{
-    margin-top: 50px;
+a{
+    text-decoration: none;
 }
-
-.left hr {
-    height: 0.2px;
-    background-color: rgb(6, 6, 6);
-}
-.content hr{
-    height: 4px;
-    background-color: rgb(6, 6, 6);
-}
-div .main{
-    border: solid 1px;
-}
-
 .left{
     float:left;
     width: 20%;
@@ -146,6 +132,14 @@ div .main{
     height: 100dvh;
     min-width: 250px;
 }   
+.left hr {
+    height: 0.2px;
+    background-color: rgb(6, 6, 6);
+}
+
+div .main{
+    border: solid 1px;
+}
 .left div{
     text-decoration: none;
     color: rgba(8, 49, 181, 0.832);
@@ -156,9 +150,7 @@ div .main{
     text-decoration: underline;
     height: 10px
 }
-a{
-    text-decoration: none;
-}
+
 .right{
     border: 3px solid gray;
     border-radius: 10px;
@@ -234,7 +226,10 @@ a{
     align-items:flex-start;
     display: flow-root;
 }
-
+.content hr{
+    height: 4px;
+    background-color: rgb(6, 6, 6);
+}
 .content p{
     font-weight: 30;
     font-size: 20px;
@@ -242,6 +237,11 @@ a{
 }
 .content h3{
     margin-top:20px;
+    color: rgb(3, 84, 3);
+}
+.content h1{
+    margin-top: 50px;
+    color: rgb(3, 84, 3);
 }
 .content .top{
     vertical-align: top;
@@ -276,21 +276,22 @@ td{
 .content .back{
     margin-left: 50px;
 }
-
 footer {
+    font-size: 2em;
     width: 100%;
-    background-color: #333;
-    color: white;
+    background-color: rgb(47, 48, 49);
+    color: rgb(250, 246, 246);
     text-align: center;
     height: 200px;
 }
 
-footer a {
-    color: #fff;
-    text-decoration: none;
+footer a{
+    color: rgb(255, 255, 255);
 }
 footer p{
    padding-top: 50px;
+   color: rgb(255, 251, 251);
+   font-size: 25px;
 }
 footer a:hover {
     text-decoration: underline;
